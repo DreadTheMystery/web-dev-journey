@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font: bold;
+    font-family: fantasy;
+    color: black;
+}
+
+h1 {
+    padding: 5px;
+    font-size: xx-large;
+    text-align: center;
+    color: darkblue;
+
+}
+
+p {
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    color: darkgreen;
+}
+
+h2 {
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+    color: darkred;
+}
+
+ul {
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    color: darkorange;
+}   
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+a:hover {
+    color: red;
+}
