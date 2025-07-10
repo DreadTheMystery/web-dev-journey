@@ -6,7 +6,7 @@
 
 body {
     background-color: antiquewhite;
-    font-family: sans-serif;
+    font-family: poppins;
     font-weight: bolder;
     padding: 50px;
     color: black;
@@ -66,3 +66,4 @@ p {
 .btn:hover {
     background-color: red;
 }
+
