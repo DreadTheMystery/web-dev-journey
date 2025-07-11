@@ -48,22 +48,20 @@ nav a:hover {
     flex-direction: column;
 }
 
-.hero h1 {
-    color: black;
-    font-size: 48px;
+.text h1 {
+    color: #1E1E2F;
+    font-size: 28px;
     text-align: center;
-    margin-bottom: 0;
 }
 
-.hero p {
+.text p {
 
-    color: black;
-    font-size: 24px;
+    color: #1E1E2F;
+    font-size: 14px;
     text-align: center;
-    margin-top: 20px;
 }
 
-.btn {
+/* .btn {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -77,16 +75,12 @@ nav a:hover {
     position: relative;
     left: 300px;
     margin-top: 20px;
-}
+} */
 
-.text {
-    margin-top: 500px;
-    width: auto;
-    height: 200px;
-}
 
 .services h2 {
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     text-align: center;
     font-size: 2.2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

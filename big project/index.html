@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
 </head>
@@ -24,30 +26,30 @@
     </header>
 
     <section class="hero">
-        <div class="text">
-            <h1>We Build Beautiful, Fast Websites</h1>
-            <p>Helping small brands go digital with clean design & blazing-fast code.</p>
-            <a href="#contact" class="btn">Let's Talk</a>
-        </div>
     </section>
 
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
+            <div class="text">
+                <h1>We Build Beautiful, Fast Websites</h1>
+                <p>Helping small brands go digital with clean design & blazing-fast code.</p>
+                <!-- <a href="#contact" class="btn">Let's Talk</a> -->
+                </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card"  data-aos="fade-up">
                     <i class="fas fa-palette"></i>
                     <h3>UI/UX Design</h3>
                     <p>We design interfaces users love to use.</p>
                     <a href="#" class="btn2">Learn More</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="fade-up">
                     <i class="fas fa-code"></i>
                     <h3>Web Development</h3>
                     <p>We build fast, responsive websites that perform.</p>
                     <a href="#" class="btn2">Learn More</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="fade-up">
                     <i class="fas fa-mobile-alt"></i>
                     <h3>Mobile Optimization</h3>
                     <p>We ensure your site looks perfect on every device.</p>
@@ -84,18 +86,18 @@
         <div class="testimonials-container">
             <h2>What Our Clients Say</h2>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <div class="testimonial-card"  data-aos="flip-up">
                     <img src="1.png" alt="">
                     <p>They delivered our site in 5 days and it looks amazing.</p>
                     <span><i>Ada, SmallBiz CEO</i></span>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-aos="flip-up">
                     <img src="1.png" alt="">
                     <p>PixelCraft transformed our online presence completely. Sales increased by 40% in just two
                         months!</p>
                     <span><i>Marcus, TechStart Founder</i></span>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card"  data-aos="flip-up">
                     <img src="1.png" alt="">
                     <p>Professional, fast, and exactly what we needed. Highly recommend their services.</p>
                     <span><i>Sarah, Local Bakery Owner</i></span>
@@ -150,7 +152,7 @@
         </div>
     </footer>
 
-    <!-- <script>
+    <script>
      
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -166,8 +168,12 @@
                 document.getElementById('contactForm').reset();
             }, 3000);
         });
-    </script> -->
-    
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
