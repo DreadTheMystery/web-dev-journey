@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.counter-container{
+    text-align: center;
+}
+#counter{
+    font-size: 8rem;
+}
+
+
+button{
+    padding:10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 10px 2px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+}
+
+
+button:hover{
+    background-color: #6EACDA;
+}
+
+label{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+input{
+    padding: 10px 20px ;
+    margin-bottom: 20px;
+    box-shadow: 10px 2px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+}
